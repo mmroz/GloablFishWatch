@@ -1,0 +1,29 @@
+{
+    "callsign": "5BWC3",
+    "firstTransmissionDate": "2013-05-15T20:18:31Z",
+    "flag": "CYP",
+    "geartype": null,
+    "id": "8c7304226-6c71-edbe-0b63-c246734b3c01",
+    "imo": "9076260",
+    "lastTransmissionDate": "2023-02-14T18:50:09Z",
+    "mmsi": "210631000",
+    "msgCount": 214721511,
+    "posCount": 1015852,
+    "shipname": "FRIO FORWIN",
+    "source": "AIS",
+    "vesselType": "Carrier",
+    "years": [
+        2013,
+        2014,
+        2015,
+        2016,
+        2017,
+        2018,
+        2019,
+        2020,
+        2021,
+        2022,
+        2023
+    ],
+    "dataset": "public-global-carrier-vessels:v20201001"
+}

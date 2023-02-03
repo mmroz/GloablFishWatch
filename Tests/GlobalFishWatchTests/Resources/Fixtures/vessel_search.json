@@ -1,0 +1,46 @@
+{"metadata":{"query":"Xue", "suggestion":null, "field":"shipname"},
+    "total":13,
+    "limit":10,
+    "offset":10,
+    "nextOffset":null,
+    "entries":
+    [
+        {
+            "callsign":"70067",
+            "firstTransmissionDate":"2013-08-03T20:05:55Z",
+            "flag":"CHN",
+            "geartype":"fishing",
+            "id":"3dda91c1f-f4f8-e71d-670e-d9d971068e55",
+            "imo":"0",
+            "lastTransmissionDate":"2013-12-24T07:35:52Z",
+            "mmsi":"412444084",
+            "msgCount":17670,
+            "posCount":2795,
+            "shipname":"HAI XUEN 007",
+            "source":"AIS",
+            "vesselType":"Fishing",
+            "years":[2013],
+            "dataset":"public-global-fishing-vessels:v20201001",
+            "score":28.237091
+            
+        },
+        {
+            "callsign":"XUEC2",
+            "firstTransmissionDate":"2012-03-15T09:41:52Z",
+            "flag":"KHM",
+            "geartype":null,
+            "id":"60d65f54b-bb97-b62a-5f41-028de7c09874",
+            "imo":"0",
+            "lastTransmissionDate":"2014-12-06T04:44:59Z",
+            "mmsi":"514740000",
+            "msgCount":223531,
+            "posCount":7809,
+            "shipname":"HAIFENG66",
+            "source":"AIS",
+            "vesselType":"Carrier",
+            "years":[2013, 2014],
+            "dataset":"public-global-carrier-vessels:v20201001",
+            "score":22.900263
+        },
+    ]
+}

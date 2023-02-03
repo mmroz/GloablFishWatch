@@ -1,0 +1,480 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E4590E072987392000F9AAA1 /* VesselAdvancedSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4590E062987392000F9AAA1 /* VesselAdvancedSearchView.swift */; };
+		E45F6F5529876DD800FD1B9F /* VesselIDSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F6F5429876DD800FD1B9F /* VesselIDSearchView.swift */; };
+		E45F6F572987710200FD1B9F /* SelectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F6F562987710200FD1B9F /* SelectPickerView.swift */; };
+		E45F6F59298B3EE600FD1B9F /* EventIDSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E45F6F58298B3EE600FD1B9F /* EventIDSearchView.swift */; };
+		E46BF82D298B460D003882A8 /* EventSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BF82C298B460D003882A8 /* EventSearchView.swift */; };
+		E46BF830298B4EAD003882A8 /* EventEncounterType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BF82F298B4EAD003882A8 /* EventEncounterType.swift */; };
+		E46BF832298B4EDA003882A8 /* EventType.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BF831298B4EDA003882A8 /* EventType.swift */; };
+		E46BF836298BF49E003882A8 /* ButtonTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46BF835298BF49E003882A8 /* ButtonTextField.swift */; };
+		E478E1472984F7CF0073FA29 /* FishDemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478E1462984F7CF0073FA29 /* FishDemoApp.swift */; };
+		E478E1492984F7CF0073FA29 /* VesselSearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478E1482984F7CF0073FA29 /* VesselSearchView.swift */; };
+		E478E14B2984F7D00073FA29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E478E14A2984F7D00073FA29 /* Assets.xcassets */; };
+		E478E14E2984F7D00073FA29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E478E14D2984F7D00073FA29 /* Preview Assets.xcassets */; };
+		E478E1582984F8420073FA29 /* GlobalFishWatch in Frameworks */ = {isa = PBXBuildFile; productRef = E478E1572984F8420073FA29 /* GlobalFishWatch */; };
+		E478E15B2986DED20073FA29 /* MultiSelectPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478E15A2986DED20073FA29 /* MultiSelectPickerView.swift */; };
+		E478E15D2986DEF40073FA29 /* LabeledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478E15C2986DEF40073FA29 /* LabeledTextField.swift */; };
+		E478E15F2986E0A20073FA29 /* CloudTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E478E15E2986E0A20073FA29 /* CloudTag.swift */; };
+		E487DF14298C89C700CEDF39 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487DF13298C89C700CEDF39 /* Logger.swift */; };
+		E487DF16298C8C5E00CEDF39 /* VesselApiDataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487DF15298C8C5E00CEDF39 /* VesselApiDataSet.swift */; };
+		E487DF18298CB39F00CEDF39 /* MapEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487DF17298CB39F00CEDF39 /* MapEventView.swift */; };
+		E487DF1A298DCE7600CEDF39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E487DF19298DCE7600CEDF39 /* ContentView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E4590E062987392000F9AAA1 /* VesselAdvancedSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselAdvancedSearchView.swift; sourceTree = "<group>"; };
+		E45F6F5429876DD800FD1B9F /* VesselIDSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselIDSearchView.swift; sourceTree = "<group>"; };
+		E45F6F562987710200FD1B9F /* SelectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectPickerView.swift; sourceTree = "<group>"; };
+		E45F6F58298B3EE600FD1B9F /* EventIDSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventIDSearchView.swift; sourceTree = "<group>"; };
+		E46BF82C298B460D003882A8 /* EventSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventSearchView.swift; sourceTree = "<group>"; };
+		E46BF82F298B4EAD003882A8 /* EventEncounterType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEncounterType.swift; sourceTree = "<group>"; };
+		E46BF831298B4EDA003882A8 /* EventType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventType.swift; sourceTree = "<group>"; };
+		E46BF835298BF49E003882A8 /* ButtonTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonTextField.swift; sourceTree = "<group>"; };
+		E478E1432984F7CF0073FA29 /* FishDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E478E1462984F7CF0073FA29 /* FishDemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishDemoApp.swift; sourceTree = "<group>"; };
+		E478E1482984F7CF0073FA29 /* VesselSearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselSearchView.swift; sourceTree = "<group>"; };
+		E478E14A2984F7D00073FA29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E478E14D2984F7D00073FA29 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E478E1552984F81F0073FA29 /* global-fish-watch */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = "global-fish-watch"; path = ..; sourceTree = "<group>"; };
+		E478E15A2986DED20073FA29 /* MultiSelectPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiSelectPickerView.swift; sourceTree = "<group>"; };
+		E478E15C2986DEF40073FA29 /* LabeledTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabeledTextField.swift; sourceTree = "<group>"; };
+		E478E15E2986E0A20073FA29 /* CloudTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudTag.swift; sourceTree = "<group>"; };
+		E487DF13298C89C700CEDF39 /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		E487DF15298C8C5E00CEDF39 /* VesselApiDataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VesselApiDataSet.swift; sourceTree = "<group>"; };
+		E487DF17298CB39F00CEDF39 /* MapEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapEventView.swift; sourceTree = "<group>"; };
+		E487DF19298DCE7600CEDF39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E478E1402984F7CF0073FA29 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E478E1582984F8420073FA29 /* GlobalFishWatch in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E4590E0829876B2300F9AAA1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E45F6F5B298B45AF00FD1B9F /* Vessels */,
+				E45F6F5A298B45A100FD1B9F /* Events */,
+				E487DF19298DCE7600CEDF39 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E45F6F5A298B45A100FD1B9F /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				E46BF82C298B460D003882A8 /* EventSearchView.swift */,
+				E45F6F58298B3EE600FD1B9F /* EventIDSearchView.swift */,
+				E487DF17298CB39F00CEDF39 /* MapEventView.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		E45F6F5B298B45AF00FD1B9F /* Vessels */ = {
+			isa = PBXGroup;
+			children = (
+				E4590E062987392000F9AAA1 /* VesselAdvancedSearchView.swift */,
+				E478E1482984F7CF0073FA29 /* VesselSearchView.swift */,
+				E45F6F5429876DD800FD1B9F /* VesselIDSearchView.swift */,
+			);
+			path = Vessels;
+			sourceTree = "<group>";
+		};
+		E46BF82E298B4E87003882A8 /* GlobalFishWatch+Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E46BF82F298B4EAD003882A8 /* EventEncounterType.swift */,
+				E46BF831298B4EDA003882A8 /* EventType.swift */,
+				E487DF15298C8C5E00CEDF39 /* VesselApiDataSet.swift */,
+			);
+			path = "GlobalFishWatch+Extensions";
+			sourceTree = "<group>";
+		};
+		E478E13A2984F7CF0073FA29 = {
+			isa = PBXGroup;
+			children = (
+				E478E1542984F81F0073FA29 /* Packages */,
+				E478E1452984F7CF0073FA29 /* FishDemo */,
+				E478E1442984F7CF0073FA29 /* Products */,
+				E478E1562984F8420073FA29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E478E1442984F7CF0073FA29 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E478E1432984F7CF0073FA29 /* FishDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E478E1452984F7CF0073FA29 /* FishDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E487DF12298C89B700CEDF39 /* Helpers */,
+				E46BF82E298B4E87003882A8 /* GlobalFishWatch+Extensions */,
+				E4590E0829876B2300F9AAA1 /* Views */,
+				E478E1592986DEC70073FA29 /* Components */,
+				E478E1462984F7CF0073FA29 /* FishDemoApp.swift */,
+				E478E14A2984F7D00073FA29 /* Assets.xcassets */,
+				E478E14C2984F7D00073FA29 /* Preview Content */,
+			);
+			path = FishDemo;
+			sourceTree = "<group>";
+		};
+		E478E14C2984F7D00073FA29 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E478E14D2984F7D00073FA29 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E478E1542984F81F0073FA29 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				E478E1552984F81F0073FA29 /* global-fish-watch */,
+			);
+			name = Packages;
+			sourceTree = "<group>";
+		};
+		E478E1562984F8420073FA29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E478E1592986DEC70073FA29 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				E478E15A2986DED20073FA29 /* MultiSelectPickerView.swift */,
+				E478E15C2986DEF40073FA29 /* LabeledTextField.swift */,
+				E478E15E2986E0A20073FA29 /* CloudTag.swift */,
+				E45F6F562987710200FD1B9F /* SelectPickerView.swift */,
+				E46BF835298BF49E003882A8 /* ButtonTextField.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		E487DF12298C89B700CEDF39 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E487DF13298C89C700CEDF39 /* Logger.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E478E1422984F7CF0073FA29 /* FishDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E478E1512984F7D00073FA29 /* Build configuration list for PBXNativeTarget "FishDemo" */;
+			buildPhases = (
+				E478E13F2984F7CF0073FA29 /* Sources */,
+				E478E1402984F7CF0073FA29 /* Frameworks */,
+				E478E1412984F7CF0073FA29 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FishDemo;
+			packageProductDependencies = (
+				E478E1572984F8420073FA29 /* GlobalFishWatch */,
+			);
+			productName = FishDemo;
+			productReference = E478E1432984F7CF0073FA29 /* FishDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E478E13B2984F7CF0073FA29 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					E478E1422984F7CF0073FA29 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = E478E13E2984F7CF0073FA29 /* Build configuration list for PBXProject "FishDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E478E13A2984F7CF0073FA29;
+			productRefGroup = E478E1442984F7CF0073FA29 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E478E1422984F7CF0073FA29 /* FishDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E478E1412984F7CF0073FA29 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E478E14E2984F7D00073FA29 /* Preview Assets.xcassets in Resources */,
+				E478E14B2984F7D00073FA29 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E478E13F2984F7CF0073FA29 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46BF832298B4EDA003882A8 /* EventType.swift in Sources */,
+				E46BF836298BF49E003882A8 /* ButtonTextField.swift in Sources */,
+				E478E1492984F7CF0073FA29 /* VesselSearchView.swift in Sources */,
+				E45F6F5529876DD800FD1B9F /* VesselIDSearchView.swift in Sources */,
+				E45F6F572987710200FD1B9F /* SelectPickerView.swift in Sources */,
+				E478E15B2986DED20073FA29 /* MultiSelectPickerView.swift in Sources */,
+				E46BF82D298B460D003882A8 /* EventSearchView.swift in Sources */,
+				E487DF1A298DCE7600CEDF39 /* ContentView.swift in Sources */,
+				E478E1472984F7CF0073FA29 /* FishDemoApp.swift in Sources */,
+				E487DF18298CB39F00CEDF39 /* MapEventView.swift in Sources */,
+				E45F6F59298B3EE600FD1B9F /* EventIDSearchView.swift in Sources */,
+				E478E15F2986E0A20073FA29 /* CloudTag.swift in Sources */,
+				E4590E072987392000F9AAA1 /* VesselAdvancedSearchView.swift in Sources */,
+				E487DF14298C89C700CEDF39 /* Logger.swift in Sources */,
+				E46BF830298B4EAD003882A8 /* EventEncounterType.swift in Sources */,
+				E478E15D2986DEF40073FA29 /* LabeledTextField.swift in Sources */,
+				E487DF16298C8C5E00CEDF39 /* VesselApiDataSet.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E478E14F2984F7D00073FA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E478E1502984F7D00073FA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E478E1522984F7D00073FA29 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FishDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmroz.com.FishDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E478E1532984F7D00073FA29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FishDemo/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = mmroz.com.FishDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E478E13E2984F7CF0073FA29 /* Build configuration list for PBXProject "FishDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E478E14F2984F7D00073FA29 /* Debug */,
+				E478E1502984F7D00073FA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E478E1512984F7D00073FA29 /* Build configuration list for PBXNativeTarget "FishDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E478E1522984F7D00073FA29 /* Debug */,
+				E478E1532984F7D00073FA29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E478E1572984F8420073FA29 /* GlobalFishWatch */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GlobalFishWatch;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = E478E13B2984F7CF0073FA29 /* Project object */;
+}

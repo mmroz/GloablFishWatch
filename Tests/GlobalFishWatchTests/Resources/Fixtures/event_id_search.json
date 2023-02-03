@@ -1,0 +1,93 @@
+{
+    "id": "c2f0967e061f99a01793edac065de003",
+    "type": "port_visit",
+    "start": "2020-01-26T05:52:47.000Z",
+    "end": "2020-01-29T14:39:33.000Z",
+    "position": {
+        "lat": 20.8374,
+        "lon": -17.0161
+    },
+    "regions": {
+        "mpa": [],
+        "eez": [
+            "8369"
+        ],
+        "rfmo": [
+            "NAMMCO",
+            "SRFC",
+            "ICCAT",
+            "ACAP",
+            "IWC"
+        ],
+        "fao": [
+            "34",
+            "34.1",
+            "34.1.32",
+            "34.1.3"
+        ],
+        "major_fao": [
+            "34"
+        ],
+        "eez12nm": [],
+        "high_seas": [],
+        "mpa_no_take_partial": [],
+        "mpa_no_take": []
+    },
+    "boundingBox": [
+        -17.0147743934,
+        20.7287971969,
+        -17.0301185356,
+        20.8284907611
+    ],
+    "distances": {
+        "startDistanceFromShoreKm": 7,
+        "endDistanceFromShoreKm": 2,
+        "startDistanceFromPortKm": 0,
+        "endDistanceFromPortKm": 0
+    },
+    "vessel": {
+        "id": "8c7304226-6c71-edbe-0b63-c246734b3c01",
+        "flag": "CYP",
+        "name": "FRIO FORWIN",
+        "type": "carrier",
+        "ssvid": "210631000"
+    },
+    "port_visit": {
+        "visitId": "54a297966f51994d8bad91ba58945f8c",
+        "confidence": 4,
+        "durationHrs": 80.77944444444445,
+        "startAnchorage": {
+            "anchorage_id": "0ea1bbe7",
+            "at_dock": false,
+            "distance_from_shore_km": 7,
+            "flag": "MRT",
+            "id": "mrt-nouadhibou",
+            "lat": 20.72879719687954,
+            "lon": -17.014774393446658,
+            "name": "NOUADHIBOU",
+            "top_destination": "NOUADHIBOU"
+        },
+        "intermediateAnchorage": {
+            "anchorage_id": "0ea1b6ad",
+            "at_dock": false,
+            "distance_from_shore_km": 4,
+            "flag": "MRT",
+            "id": "mrt-nouadhibou",
+            "lat": 20.885489104200627,
+            "lon": -17.003218026679036,
+            "name": "NOUADHIBOU",
+            "top_destination": "NOUADHIBOU"
+        },
+        "endAnchorage": {
+            "anchorage_id": "0ea1b0c3",
+            "at_dock": true,
+            "distance_from_shore_km": 2,
+            "flag": "MRT",
+            "id": "mrt-nouadhibou",
+            "lat": 20.828490761089796,
+            "lon": -17.030118535609358,
+            "name": "NOUADHIBOU",
+            "top_destination": "NOUADHIBOU"
+        }
+    }
+}

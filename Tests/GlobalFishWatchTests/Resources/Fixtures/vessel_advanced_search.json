@@ -1,0 +1,237 @@
+{
+    "metadata": {
+        "query": "shipname = 'HAI XUEN 007' OR imo='0'"
+    },
+    "total": 316,
+    "limit": 10,
+    "offset": 10,
+    "nextOffset": 20,
+    "entries": [
+        {
+            "callsign": "3EKZ8",
+            "firstTransmissionDate": "2019-05-28T10:41:23Z",
+            "flag": "PAN",
+            "geartype": null,
+            "id": "8655dc79e-e381-71c4-2489-2dc6d8c3faea",
+            "imo": "0",
+            "lastTransmissionDate": "2020-09-11T18:34:32Z",
+            "mmsi": "372886000",
+            "msgCount": 986792,
+            "posCount": 34222,
+            "shipname": "CHANG SHUN 1",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2019,
+                2020
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "",
+            "firstTransmissionDate": "2019-02-19T00:56:26Z",
+            "flag": "CHN",
+            "geartype": null,
+            "id": "6613d7a78-8d97-3eca-fa8c-ea861c7fee5f",
+            "imo": "0",
+            "lastTransmissionDate": "2022-12-20T22:01:52Z",
+            "mmsi": "412336767",
+            "msgCount": 1039399,
+            "posCount": 46055,
+            "shipname": "LURONGYUANYUYUN188",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2019,
+                2020,
+                2021,
+                2022
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "",
+            "firstTransmissionDate": "2012-09-08T06:22:19Z",
+            "flag": "CHN",
+            "geartype": null,
+            "id": "5eb4cc8ae-e929-0e0d-ac83-84c8afc4616d",
+            "imo": "0",
+            "lastTransmissionDate": "2017-10-17T02:03:36Z",
+            "mmsi": "412420105",
+            "msgCount": 574042,
+            "posCount": 25731,
+            "shipname": "ZHEZHOUYULENG220",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2016,
+                2017
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "BZHY",
+            "firstTransmissionDate": "2012-09-09T01:34:24Z",
+            "flag": "TWN",
+            "geartype": null,
+            "id": "1a927aa47-7200-2e7b-b625-9c79d1e62209",
+            "imo": "0",
+            "lastTransmissionDate": "2018-03-16T02:45:12Z",
+            "mmsi": "416064900",
+            "msgCount": 135211,
+            "posCount": 7633,
+            "shipname": "FENG HAI NO.1",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2013,
+                2014,
+                2015,
+                2018
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "",
+            "firstTransmissionDate": "2018-08-27T04:56:01Z",
+            "flag": "CHN",
+            "geartype": null,
+            "id": "0b772d4e9-9b8e-0d48-db01-457c7c680c2e",
+            "imo": "0",
+            "lastTransmissionDate": "2023-02-15T23:59:50Z",
+            "mmsi": "412421071",
+            "msgCount": 155579387,
+            "posCount": 1414742,
+            "shipname": "XINJILILENG6",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2018,
+                2019,
+                2020,
+                2021,
+                2022,
+                2023
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "BZUV8",
+            "firstTransmissionDate": "2021-05-25T23:58:36Z",
+            "flag": "CHN",
+            "geartype": null,
+            "id": "e5a8faf91-1e96-63af-2f85-d50ac3edeeeb",
+            "imo": "0",
+            "lastTransmissionDate": "2023-02-15T23:58:58Z",
+            "mmsi": "412440656",
+            "msgCount": 19456159,
+            "posCount": 269334,
+            "shipname": "FU YUAN YU YUN 688",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2021,
+                2022,
+                2023
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "YC 4478",
+            "firstTransmissionDate": "2013-02-20T12:41:08Z",
+            "flag": "IDN",
+            "geartype": null,
+            "id": "f4478b095-5896-9398-8c30-1f625b80d325",
+            "imo": "0",
+            "lastTransmissionDate": "2019-05-30T22:08:15Z",
+            "mmsi": "525021098",
+            "msgCount": 262385,
+            "posCount": 30704,
+            "shipname": "SUKSES PERKASA",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2013,
+                2014,
+                2015,
+                2016,
+                2017,
+                2018,
+                2019
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "BCFI8",
+            "firstTransmissionDate": "2017-11-23T00:32:32Z",
+            "flag": "CHN",
+            "geartype": null,
+            "id": "1c4ef6bd3-31f5-8f38-491b-2b01934e788e",
+            "imo": "0",
+            "lastTransmissionDate": "2020-06-08T02:03:48Z",
+            "mmsi": "412331493",
+            "msgCount": 895048,
+            "posCount": 38630,
+            "shipname": "LURONGYUANYUYUN899",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2017,
+                2018,
+                2019,
+                2020
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "TEST",
+            "firstTransmissionDate": "2015-12-14T15:44:13Z",
+            "flag": "CHN",
+            "geartype": null,
+            "id": "1d1777d01-1a72-aeab-b6d2-f06f500aeeea",
+            "imo": "0",
+            "lastTransmissionDate": "2017-12-31T01:51:31Z",
+            "mmsi": "412436952",
+            "msgCount": 4264349,
+            "posCount": 72082,
+            "shipname": "OU YA LENG 6",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2016,
+                2017
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        },
+        {
+            "callsign": "",
+            "firstTransmissionDate": "2016-06-26T05:43:22Z",
+            "flag": "USA",
+            "geartype": null,
+            "id": "15154de23-3250-5d14-5d69-608acf703009",
+            "imo": "0",
+            "lastTransmissionDate": "2017-07-24T09:45:08Z",
+            "mmsi": "367107030",
+            "msgCount": 530740,
+            "posCount": 10734,
+            "shipname": "AKEMI",
+            "source": "AIS",
+            "vesselType": "Carrier",
+            "years": [
+                2016,
+                2017
+            ],
+            "dataset": "public-global-carrier-vessels:v20201001",
+            "score": 2.0566723
+        }
+    ]
+}
